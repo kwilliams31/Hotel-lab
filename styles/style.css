@@ -1,0 +1,28 @@
+body{
+    background-color: #f8acac;
+    color: #99bbff;
+}
+
+.topnav {
+    background-color: #6B9056;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+  
+  .nav-link {
+    float: right;
+  }
+  
+  .nav-link:hover{
+    color: #FAFAFA;
+  }
+  
+  .topnav a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .navbar-brand{
+    float: left;
+  }
