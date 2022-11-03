@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Golf-lab</title>
+  <title>Hotel-lab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./styles/style.css">
 
@@ -11,41 +11,46 @@
 
   <!--nav bar get bs5?-->
 <div class="topnav">
-  <a class="navbar-brand" >Hotel lab</a>
+  <a class="navbar-brand" >Kristina W</a>
   <a class="nav-link active" href=https://github.com/kwilliams31/Hotel-lab target="_blank">check out repo</a>
-<a class="nav-link active" href="" target="_blank" >Code Validation</a>
+<a class="nav-link active" href="https://validator.nu/?doc=https%3A%2F%2Fkwilliams31.github.io%2FHotel-lab%2F" target="_blank" >Code Validation</a>
 </div>
 
-<p>sign up for swimming with sharks</p>
-
-<form id="names">
-  <label for="fname" placeholder="Fname">First name: </label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname" placeholder="Lname">Last name: </label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Submit">
-</form> 
-
-
-<form id="password">
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email"><br><br>
-  <label for="pwd">Password:</label>
-  <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
-  <input type="submit">
-</form>
+<!--card with name input form-->
+<div class="row">
+<div class="col-md-7 offset-sm-3">
+<div class="card">
+  <img class="img-fluid" src="photos/underwater.jpg" alt="underwater with fish">
+  <div class="card-body">
+    <h5 class="card-title">This is the sign up for underwater team bingo! 🌊🐠🐟🐬🐳</h5>
+    <p class="card-text">Please complete this information for the sign up</p>
+    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    <!--form for inputting email and pasw-->
+    <form id="userInput">
+      <label for="email">Email:</label>
+      <input type="email" id="userEmail" name="email" placeholder="sharkman@oceanmail.com" required><br><br>
+      <label for="pwd">Password: (min 5)</label>
+      <input type="password" id="userPwd" name="pwd" minlength="5" placeholder="*****" required><br><br>
+      I am not a robot (or shark) <input type="checkbox" id="myCheck" onclick="myFunction()">
+      <input id = "submitButton" type="submit"style="display:none">
+    </form>
+    </form>
+  </div>
+</div>
+</div>
+</div>
 
 
 <form id="check">
-  <input type="checkbox" id="vehicle1" name="vehicle1" value="have you worn wigs">
-  <label for="vehicle1"> I have a bike</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="will you wear wigs">
-  <label for="vehicle2"> I have a car</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3"> I have a boat</label><br><br>
-  <input type="submit" value="Submit">
-</form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="value1">
+  <label for="vehicle1">do you wear wigs?</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="value2">
+  <label for="vehicle2">have you worn wigs</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="value3">
+  <label for="vehicle3">will you wear wigs</label><br><br>
+  <!-- <input type="submit" value="Submit"> -->
 
+</form>
 
 
 

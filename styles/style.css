@@ -1,10 +1,10 @@
 body{
-    background-color: #f8acac;
+    background-color: #c4e3c2;
     color: #99bbff;
 }
 
 .topnav {
-    background-color: #6B9056;
+    background-color: #8db377;
     overflow: hidden;
     margin-bottom: 5px;
   }
@@ -25,4 +25,17 @@ body{
   
   .navbar-brand{
     float: left;
+  }
+
+  #userEmail {  
+    width: 280px;
+   }
+
+  #Userpwd{
+    width: 198px;
+  }
+
+  #submitButton{
+    background-color: #859eca;
+    margin-top: 10px;
   }
