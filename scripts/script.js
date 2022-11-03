@@ -14,6 +14,28 @@ function myFunction() {
     }
   }
 
+
+  // function myFunction() {
+  //   // Get the checkbox
+  //   var checkBox = document.getElementById("shirtCheck");
+  //   // Get the output text
+  //   var text = document.getElementById("shirts");
+  
+  //   // If the checkbox is checked, display the output text
+  //   if (checkBox.checked == true) {
+  //     text.style.display = "block";
+  //   } else {
+  //     text.style.display = "none";
+  //   }
+  // }
+
+  
+
+
+  /*
+  get a button taking it to somewhere
+  ex. select state, takes you to counties in that state
+  */
   
 // input value from submit bar
   var el = document.getElementById("submitButton");

@@ -1,6 +1,6 @@
 body{
     background-color: #c4e3c2;
-    color: #99bbff;
+    color: #5787e7;
 }
 
 .topnav {
@@ -25,6 +25,11 @@ body{
   
   .navbar-brand{
     float: left;
+  }
+
+  #waterImg{
+    border: solid;
+    padding: 3px;
   }
 
   #userEmail {  
