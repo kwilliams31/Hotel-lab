@@ -1,4 +1,5 @@
 // doctype,, putting $ before function, jq
+// using jq to get button to change and show when something else is selected
 // checkbox 
 function myFunction() {
     // Get the checkbox
