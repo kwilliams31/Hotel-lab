@@ -1,4 +1,4 @@
-// 
+// doctype,, putting $ before function, jq
 // checkbox 
 function myFunction() {
     // Get the checkbox
